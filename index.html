@@ -20,7 +20,7 @@
     function uploadFile() {
       var formData = new FormData(document.getElementById('upload-form'));
       var xhr = new XMLHttpRequest();
-      xhr.open('POST', 'https://myvemcorsproxy.herokuapp.com/https://script.google.com/macros/s/AKfycbxPvPT5lU-cN9ZN4ELRfbKJHt0kgANsMEZ2QEo2rpclgSOSwKGsclCuwpJgQoDdaZ_H/exec');
+      xhr.open('POST', 'https://script.google.com/macros/s/AKfycbxPvPT5lU-cN9ZN4ELRfbKJHt0kgANsMEZ2QEo2rpclgSOSwKGsclCuwpJgQoDdaZ_H/exec');
       xhr.onload = function() {
         if (xhr.status === 200) {
           alert('File uploaded successfully!');
